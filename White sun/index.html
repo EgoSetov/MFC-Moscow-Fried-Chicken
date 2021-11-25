@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<title>Белое солнце</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="header-logo">
+				<img src="images/logo.png" alt="logo">
+			</div>
+			<div class="header-info">
+				<span class="header-info-span">contact@beloesolnce.com</span>
+				<span class="header-info-span">+7(499) 342-4746</span>
+				<span class="header-info-span">+38 (067) 225-7557</span>
+			</div>
+			<div id="navActive" class="header-menu">
+				<div class="header-menu-line"></div>
+				<div class="header-menu-line"></div>
+				<div class="header-menu-line"></div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main-info">
+				<div class="main-info-help">
+					<span class="main-info-help-title titleMain">
+						Как мы можем помочь?
+					</span>
+					<span class="main-info-help-text">
+						Здесь вы найдете контактные данные сотрудников проекта трансформации личности “Белое Солнце”. Если у
+						вас есть какие-либо вопросы или вы хотите получить личную консультацию, обратитесь напрямую или через
+						нашу форму обратной связи.
+					</span>
+				</div>
+				<div class="main-info-contact">
+					<span class="main-info-contact-text-title titleMain">
+						Контакты
+					</span>
+					<div class="main-info-contact-text">
+						<span class="main-info-contact-text-span">
+							<span class="main-info-contact-text-span-country">
+								<span><span class="bold">Россия: </span>+7(499) 342-4746</span>
+								<span><span class="bold">Украина: </span>+38 (067) 225-7557</span>
+							</span>
+						</span>
+						<span class="main-info-contact-text-span">
+							<span>
+								<a href="#" class="bold mainLink">contact@beloesolnce.com, </a>
+								<a href="#" class="bold mainLink">info@beloesolnce.com</a>
+							</span>
+						</span>
+						<span class="main-info-contact-text-span">
+							<span class="chart"><span class="bold">График работы “Белого Солнца”: </span>10.00 - 19.00 мск
+								(пн-пт)</span>
+						</span>
+						<span class="main-info-contact-text-span">
+							<span><span class="bold">Важно!</span> Если вы написали нам в нерабочие часы, администратор
+								свяжется с вами при первой
+								возможности, согласно графику.</span>
+						</span>
+						<span class="main-info-contact-text-span">
+							<span class="bold">Пожалуйста, ожидайте.</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<form class="main-form" method="POST" enctype="multipart/form-data">
+				<div class="main-form-fields">
+					<div class="main-form-fields-field">
+						<input placeholder=" " required type="text" id="name" name="name">
+						<label for="name">Имя</label>
+						<span class="exact">Поле обязательно для заполнения</span>
+					</div>
+					<div class="main-form-fields-field">
+						<input required placeholder="+7 (000) - 000 - 0000" type="number" id="number" name="number">
+						<label for="number">Телефон</label>
+						<span class="exact">Поле обязательно для заполнения</span>
+					</div>
+					<div class="main-form-fields-field">
+						<input placeholder=" " required type="email" id="email" name="email">
+						<label for="email">Email</label>
+						<span class="exact">Поле обязательно для заполнения</span>
+					</div>
+					<div class="main-form-fields-field">
+						<input placeholder=" " required type="text" id="text" name="text">
+						<label for="text">Сообщение</label>
+						<span class="exact">Поле обязательно для заполнения</span>
+					</div>
+					<div class="main-form-fields-field-file">
+						<img id="iconData" src="./images/paperСlip.png" alt="icon">
+						<input type="file" id="file" name="file">
+						<label for="file" class="link">Прикрепить файл</label>
+					</div>
+				</div>
+				<div class="main-form-btn">
+					<button id="send">Отправить</button>
+				</div>
+				<div class="main-form-personalData">
+					<span class="main-form-personalData-span">
+						Нажимая на кнопку, я соглашаюсь на
+						<span class="link">
+							<a class="link" href="#">обработку
+								персональных данных</a>
+						</span>
+					</span>
+				</div>
+			</form>
+		</main>
+
+		<footer class="footer">
+			<div class="footer-contact">
+				<div class="footer-contact-title">
+					<span class="bold">Контакты:</span>
+				</div>
+				<div class="footer-contact-country">
+					<span><span class="bold">Россия: </span>+7(499) 342-4746</span>
+					<span><span class="bold">Украина: </span>+38 (067) 225-7557</span>
+				</div>
+				<div class="footer-contact-email">
+					<span>contact@beloesolnce.com</span>
+					<span>info@beloesolnce.com</span>
+				</div>
+			</div>
+			<div class="footer-payment">
+				<div class="footer-payment-detailed">
+					<span>Публичная оферта</span>
+					<span>Правила прохождения обучения</span>
+				</div>
+				<div class="footer-payment-pay">
+					<div class="footer-payment-pay-banks">
+						<div class="footer-payment-pay-bank">
+							<img src="./images/visa.png" alt="bank">
+						</div>
+						<div class="footer-payment-pay-bank">
+							<img src="./images/masterCard.png" alt="bank">
+						</div>
+						<div class="footer-payment-pay-bank">
+							<img src="./images/HSBC.png" alt="bank">
+						</div>
+					</div>
+					<div class="footer-payment-pay-proccess">
+						<span>Processed by</span>
+						<div class="footer-payment-pay-proccess-title">
+							<span>Fondy</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-info">
+				<div class="footer-info-title bold">
+					<span>МЕЖДУНАРОДНЫЙ ЦЕНТР ТРАНСФОРМАЦИИ ЛИЧНОСТИ “БЕЛОЕ СОЛНЦЕ”</span>
+				</div>
+				<div class="footer-info-text">
+					<span class="footer-info-text-span">ФЛП Горелов Руслан Александрович,
+						ИНН 3028305393,
+						РНПЕН 1000000078849
+						Юридический адрес: 08662, Украина, Киевская обл., Васильковский р-н, пгт. Гребенки, пр-т Науки,
+						71-12
+					</span>
+					<span class="footer-info-text-span">
+						ФЛП Горелов Руслан Александрович,
+						ФЛП Снеговая Юлия Александровна,
+						ИНН 2862200147
+					</span>
+				</div>
+				<div class="footer-info-socials">
+					<div class="footer-info-socials-facebook social">
+						<img src="./images/facebook.png" alt="facebook">
+					</div>
+					<div class="footer-info-socials-instagram social">
+						<img src="./images/instagram.png" alt="instagram">
+					</div>
+					<div class="footer-info-socials-ok social">
+						<img src="./images/ok.png" alt="ok">
+					</div>
+					<div class="footer-info-socials-vk social">
+						<img src="./images/vk.png" alt="vk">
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div id="navbar" class="navbar">
+			<div class="navbar-logo">
+				<img src="./images/logo2.png" alt="logo">
+			</div>
+			<div class="navbar-listMenu">
+				<span class="bold"><a href="#">Базовая ступень</a></span>
+				<span class="bold"><a href="#">Тарифы</a></span>
+				<span class="bold"><a href="#">Преподаватели</a></span>
+				<span class="bold"><a href="#">Собеседование</a></span>
+				<span class="bold"><a href="#">Калькулятор матрцы судьбы</a></span>
+				<span class="bold"><a href="#">форму</a></span>
+				<span class="bold"><a href="#">Образовательный центр</a></span>
+				<span class="bold"><a href="#">Академия "Белое солнце"</a></span>
+				<span class="bold"><a href="#">Видеовебинры</a></span>
+			</div>
+			<div class="navbar-socials social">
+				<div class="navbar-socials-facebook social">
+					<img src="./images/facebook.png" alt="facebook">
+				</div>
+				<div class="navbar-socials-instagram social">
+					<img src="./images/instagram.png" alt="instagram">
+				</div>
+				<div class="navbar-socials-telegram social">
+					<img src="./images/telegram.png" alt="telegram">
+				</div>
+				<div class="navbar-socials-vk social">
+					<img src="./images/vk.png" alt="vk">
+				</div>
+				<div class="navbar-socials-whatsapp social">
+					<img src="./images/whatsapp.png" alt="whatsapp">
+				</div>
+			</div>
+			<div id="exit" class="navbar-exitMark">
+				<img src="./images/x_mark.png" alt="exit">
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

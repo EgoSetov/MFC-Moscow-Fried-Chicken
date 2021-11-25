@@ -1,0 +1,299 @@
+@font-face {
+  font-family: Roboto;
+  src: url(./../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(.././fonts/gilroy/RadomirTinkovGilroyLight.otf);
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(.././fonts/gilroy/RadomirTinkovGilroyExtraBold.otf);
+}
+
+@font-face {
+  font-family: Something-Strange;
+  src: url(.././fonts/Something-Strange/Something-Strange.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #171817;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0px;
+}
+
+#container {
+  width: 1440px;
+  height: 100%;
+  background: #272b2c;
+  box-shadow: 0px 4px 42px 12px rgba(0, 0, 0, 0.35);
+  border-radius: 24px;
+  padding: 40px 64px;
+  position: relative;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.header-logo img {
+  width: 29px;
+}
+
+.header-logo span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+}
+
+.header-nav span {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.header-nav-menu {
+  display: flex;
+  gap: 48px;
+}
+
+
+.header-nav-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  border: 2px solid #72ed2f;
+  border-radius: 4px;
+}
+
+.header-nav-contact span {
+  font-family: Gilroy-Bold !important;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 62px;
+}
+
+.main-title span {
+  font-family: Something-Strange;
+  font-size: 124px;
+  letter-spacing: 0.05em;
+  color: #5fe117;
+}
+
+.main-decription {
+  max-width: 562px;
+}
+
+.main-decription span {
+  font-family: Gilroy-medium;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.main-contact {
+  padding: 16px 40px;
+  max-width: 165px;
+  margin: 100px 0px;
+  background: #72ed2f;
+  box-shadow: 4px 5px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.main-contact span {
+  font-family: Gilroy-medium;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.main-footer-choice {
+  display: flex;
+  gap: 33px;
+}
+
+.main-footer-choice-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  border: 1px solid #72ed2f;
+  box-sizing: border-box;
+  border-radius: 4px;
+  min-width: 182px;
+  gap: 16px;
+}
+
+.main-footer-choice-card img {
+  width: 34px;
+}
+
+.main-footer-choice-card span {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.heroImage {
+	position: absolute;
+	width: 700px;
+	left: 739px;
+	top: 82px;
+ }
+ 
+ .GlowEllipse1 {
+	position: absolute;
+	width: 700px;
+	left: 739px;
+	top: 82px;
+ }
+ 
+ .hero {
+	position: absolute;
+	width: 53%;
+	bottom: -10px;
+	right: 0px;
+ }
+ 
+ .WebGrp01 {
+	position: absolute;
+	width: 20%;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+ }
+ 
+ .WebGrp02 {
+	position: absolute;
+	width: 417px;
+	right: 0;
+	bottom: 0;
+ }
+ 
+ .WebGrp03 {
+	position: absolute;
+	width: 661px;
+	left: 720px;
+	bottom: 0;
+ }
+ 
+ 
+ .WebGrp031 {
+	 position: absolute;
+	 width: 661px;
+	 left: 970px;
+	 bottom: 0;
+ }
+ 
+ .WebGrp04 {
+	position: absolute;
+	width: 417px;
+	left: 0;
+	bottom: 0;
+ }
+ 
+ .WebGrp05 {
+	position: absolute;
+	width: 390px;
+	left: 390px;
+	bottom: 0;
+ }
+ 
+ .Web01Grp {
+	position: absolute;
+	width: 313px;
+	left: 205px;
+	top: 64px;
+	z-index: 10;
+ }
+ 
+ .Web01 {
+	position: absolute;
+	width: 145px;
+	right: 80px;
+	top: 0;
+	opacity: 0.3;
+ }
+ 
+ .Web02{
+	 position: absolute;
+	 width: 137px;
+	 left: 64px;
+	 top: 524px;
+	 opacity: 0.3;
+ }
+ 
+ .Web03{
+	 position: absolute;
+	 width: 31px;
+	 left: 75px;
+	 top: 685px;
+ }
+ 
+ .Web04{
+	 width: 100px;
+	 position: absolute;
+	 right: 630px;
+	 top: 0;
+ }
+ 
+ .Ghost01 {
+	 position: absolute;
+	 width: 82px;
+	 left: 55.14%;
+	 top: 21.58%;
+	 opacity: 0.3;
+	 }
+ 
+ .bat02{
+	 position: absolute;
+	 width: 87px;
+	 left: 47.43%;
+	 top: 50%;
+	 opacity: 0.3;
+ }
+ 
+ .bat01{
+	 position: absolute;
+	 width: 57px;
+	 left: 32.99%;
+	 top: 65.33%;
+	 opacity: 0.3;
+ }
